@@ -16,7 +16,7 @@ export function ProductDirectionSection() {
         {/* Section label */}
         <div className="flex items-center gap-2 mb-6">
           <div className="w-3 h-3 rounded-full bg-green-500" />
-          <span className="text-zinc-400 text-sm">Проекты и долгосрочное планирование</span>
+          <span className="text-zinc-400 text-sm">Производство и контроль качества</span>
           <ChevronRight className="w-4 h-4 text-zinc-500" />
         </div>
 
@@ -30,13 +30,13 @@ export function ProductDirectionSection() {
             lineHeight: 1.1,
           }}
         >
-          Задайте направление продукта
+          Полный цикл производства
         </h2>
 
         {/* Description */}
         <p className="text-zinc-400 text-lg max-w-md mb-16">
-          <span className="text-white font-medium">Объедините команду вокруг единой дорожной карты.</span> Планируйте,
-          управляйте и отслеживайте все инициативы с помощью визуальных инструментов Orbit.
+          <span className="text-white font-medium">От угля до готового кокса.</span> Мы контролируем
+          каждый этап производства — от подготовки сырья до финальной отгрузки.
         </p>
 
         {/* 3D Timeline Visualization */}
@@ -187,21 +187,21 @@ export function ProductDirectionSection() {
         <div className="grid grid-cols-1 md:grid-cols-2">
           {/* Left column - Manage projects end-to-end */}
           <div className="border-t border-r border-b border-zinc-800 pt-10 pr-10 pb-16">
-            <h3 className="text-xl font-medium text-zinc-200 mb-3">Управляйте проектами от А до Я</h3>
+            <h3 className="text-xl font-medium text-zinc-200 mb-3">Строгий контроль качества</h3>
             <p className="text-zinc-500 text-base leading-relaxed mb-8">
-              Объедините спецификации, этапы, задачи и документацию в одном месте.
+              Тестирование на каждом этапе: прочность, содержание серы, фракционный состав.
             </p>
 
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-5">
-              <h4 className="text-lg font-medium text-zinc-200 mb-5">Обзор проекта</h4>
+              <h4 className="text-lg font-medium text-zinc-200 mb-5">Паспорт продукции</h4>
 
               {/* Properties row */}
               <div className="flex items-center gap-4 mb-4">
-                <span className="text-zinc-500 text-sm w-20">Свойства</span>
+                <span className="text-zinc-500 text-sm w-20">Характеристики</span>
                 <div className="flex items-center gap-2">
                   <span className="flex items-center gap-1.5 px-2 py-1 rounded bg-zinc-800 text-zinc-300 text-xs">
                     <span className="w-2 h-2 rounded-full bg-yellow-500" />
-                    В работе
+                    Производство
                   </span>
                   <span className="flex items-center gap-1.5 px-2 py-1 rounded bg-zinc-800 text-zinc-300 text-xs">
                     <svg className="w-3 h-3" viewBox="0 0 16 16" fill="currentColor">
@@ -253,9 +253,9 @@ export function ProductDirectionSection() {
 
           {/* Right column - Project updates */}
           <div className="border-t border-b border-zinc-800 pt-10 pl-10 pb-16">
-            <h3 className="text-xl font-medium text-zinc-200 mb-3">Обновления проекта</h3>
+            <h3 className="text-xl font-medium text-zinc-200 mb-3">Сертификация и документы</h3>
             <p className="text-zinc-500 text-base leading-relaxed mb-8">
-              Сообщайте о прогрессе и статусе проекта с помощью встроенных отчетов.
+              Полный пакет документов: сертификаты ГОСТ, паспорта качества, заключения лабораторий.
             </p>
 
             <div className="relative h-48">

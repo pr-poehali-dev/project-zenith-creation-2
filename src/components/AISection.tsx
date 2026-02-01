@@ -2,12 +2,12 @@ import { motion } from "framer-motion"
 import { ChevronRight, Check, Paperclip, Globe, Lightbulb } from "lucide-react"
 
 const agents = [
-  { name: "Cursor", isAgent: true, selected: true, icon: "◇" },
-  { name: "GitHub Copilot", isAgent: true, selected: false, icon: "◉" },
-  { name: "Sentry", isAgent: true, selected: false, icon: "◈" },
-  { name: "Leela", isAgent: false, selected: false, icon: "○" },
-  { name: "Codex", isAgent: true, selected: false, icon: "◎" },
-  { name: "Conor", isAgent: false, selected: false, icon: "○" },
+  { name: "Кокс ПК-1", isAgent: true, selected: true, icon: "◇" },
+  { name: "Кокс ПК-2", isAgent: true, selected: false, icon: "◉" },
+  { name: "Кокс Литейный", isAgent: true, selected: false, icon: "◈" },
+  { name: "Кокс Доменный", isAgent: false, selected: false, icon: "○" },
+  { name: "Кокс Мелкий", isAgent: true, selected: false, icon: "◎" },
+  { name: "Кокс Крупный", isAgent: false, selected: false, icon: "○" },
 ]
 
 export function AISection() {
@@ -31,7 +31,7 @@ export function AISection() {
             className="flex items-center gap-2 mb-6"
           >
             <div className="w-2 h-2 rounded-full bg-blue-500" />
-            <span className="text-zinc-400 text-sm">Искусственный интеллект</span>
+<span className="text-zinc-400 text-sm">Каталог продукции</span>
             <ChevronRight className="w-4 h-4 text-zinc-500" />
           </motion.div>
 
@@ -49,7 +49,7 @@ export function AISection() {
               lineHeight: 1.1,
             }}
           >
-            Разработка с ИИ-помощником
+            Выберите нужную марку кокса
           </motion.h2>
 
           {/* Description */}
@@ -60,8 +60,8 @@ export function AISection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-zinc-400 max-w-md mb-8"
           >
-            <span className="text-white font-medium">Orbit для агентов.</span> Выбирайте из множества ИИ-агентов и
-            делегируйте задачи: от генерации кода до других технических задач.
+            <span className="text-white font-medium">Все марки в наличии.</span> Выберите подходящий тип кокса для вашего
+            производства: от литейного до доменного.
           </motion.p>
 
           {/* Learn more button */}
@@ -72,7 +72,7 @@ export function AISection() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="px-5 py-2.5 bg-zinc-800 text-zinc-300 rounded-lg border border-zinc-700 hover:bg-zinc-700 transition-colors text-sm flex items-center gap-2 mb-16"
           >
-            Подробнее
+            Посмотреть все марки
             <ChevronRight className="w-4 h-4" />
           </motion.button>
 
@@ -135,7 +135,7 @@ export function AISection() {
 
                 {/* Input field */}
                 <div className="bg-zinc-800/50 border border-zinc-700 rounded-t-xl px-5 py-4">
-                  <span className="text-zinc-500 italic">Назначить...</span>
+                  <span className="text-zinc-500 italic">Выберите марку...</span>
                 </div>
 
                 {/* Dropdown options */}
@@ -177,7 +177,7 @@ export function AISection() {
                             {agent.name}
                           </span>
                           {agent.isAgent && (
-                            <span className="text-xs bg-zinc-700 text-zinc-400 px-2 py-0.5 rounded">Агент</span>
+                            <span className="text-xs bg-zinc-700 text-zinc-400 px-2 py-0.5 rounded">ГОСТ</span>
                           )}
                         </div>
                         {agent.selected && <Check className="w-4 h-4 text-zinc-400" />}
@@ -200,9 +200,9 @@ export function AISection() {
             <div className="grid grid-cols-1 md:grid-cols-2">
               {/* Left column */}
               <div className="border-t border-r border-b border-zinc-800/60 pt-12 pr-12 pb-16">
-                <h3 className="text-zinc-200 font-medium text-xl mb-3">Автопилот для продукта</h3>
+                <h3 className="text-zinc-200 font-medium text-xl mb-3">Логистика по всей России</h3>
                 <p className="text-zinc-500 text-base mb-8">
-                  Оптимизируйте рабочие процессы с ИИ-ассистентом для рутинных и ручных задач.
+                  Быстрая доставка железнодорожным транспортом на любой комбинат.
                 </p>
 
                 {/* Triage Intelligence Card */}
@@ -282,9 +282,9 @@ export function AISection() {
 
               {/* Right column */}
               <div className="border-t border-b border-zinc-800/60 pt-12 pl-12 pb-16">
-                <h3 className="text-zinc-200 font-medium text-xl mb-3">Orbit MCP</h3>
+                <h3 className="text-zinc-200 font-medium text-xl mb-3">Консультации по заказу</h3>
                 <p className="text-zinc-500 text-base mb-8">
-                  Подключите Orbit к любимым инструментам: Cursor, Claude, ChatGPT и другим.
+                  Наши специалисты помогут подобрать оптимальную марку кокса, рассчитать объём и оформить доставку в кратчайшие сроки.
                 </p>
 
                 {/* MCP Code Snippet */}

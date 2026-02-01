@@ -4,50 +4,50 @@ import { ChevronLeft, ChevronRight, Plus, ArrowRight, MessageSquare, GitBranch, 
 const carouselCards = [
   {
     id: 1,
-    category: "Запросы клиентов",
-    title: "Создавайте то, что нужно клиентам",
+    category: "Заказ кокса",
+    title: "Оптовые поставки на завод",
     icon: ArrowRight,
     mockup: "intercom",
   },
   {
     id: 2,
-    category: "Git-интеграция",
-    title: "Автоматизируйте PR и коммиты",
+    category: "Ж/Д транспорт",
+    title: "Доставка по всей России",
     icon: Plus,
     mockup: "github",
   },
   {
     id: 3,
-    category: "Orbit Mobile",
-    title: "Управляйте работой откуда угодно",
+    category: "Мобильный доступ",
+    title: "Отслеживайте заказ в реальном времени",
     icon: ArrowRight,
     mockup: "mobile",
   },
   {
     id: 4,
-    category: "Orbit Asks",
-    title: "Превращайте запросы в задачи",
+    category: "Консультации",
+    title: "Поможем подобрать оптимальную марку",
     icon: ArrowRight,
     mockup: "asks",
   },
   {
     id: 5,
-    category: "Интеграции Orbit",
-    title: "100+ способов расширить возможности",
+    category: "Партнёры",
+    title: "20+ крупнейших комбинатов",
     icon: ArrowRight,
     mockup: "integrations",
   },
   {
     id: 6,
-    category: "Интеграция с Figma",
-    title: "Связь между разработкой и дизайном",
+    category: "Техподдержка",
+    title: "Помощь в выборе оборудования",
     icon: ArrowRight,
     mockup: "figma",
   },
   {
     id: 7,
-    category: "Для разработчиков",
-    title: "Создавайте плагины через Orbit API",
+    category: "Личный кабинет",
+    title: "Управляйте заказами онлайн",
     icon: ArrowRight,
     mockup: "api",
   },
@@ -243,15 +243,15 @@ export function WorkflowsSection() {
             {/* Orange indicator */}
             <div className="flex items-center gap-2 mb-6">
               <div className="w-2 h-2 rounded-full bg-orange-500" />
-              <span className="text-sm text-zinc-400">Процессы и интеграции</span>
+              <span className="text-sm text-zinc-400">Преимущества и сервис</span>
               <ChevronRight className="w-4 h-4 text-zinc-600" />
             </div>
 
             {/* Heading */}
             <h2 className="text-4xl md:text-5xl font-medium text-white leading-[1.1]">
-              Работайте слаженно
+              Полный спектр
               <br />
-              между инструментами
+              услуг для бизнеса
             </h2>
           </div>
 
